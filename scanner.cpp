@@ -53,6 +53,15 @@ Token* Scanner::nextToken() {
         else if (word == "ifexp") {
             token = new Token(Token::IFEXP, word, 0, word.length());
         }
+        else if (word == "for") {
+            token = new Token(Token::FOR, word, 0, word.length());
+        }
+        else if (word == "endfor") {
+            token = new Token(Token::ENDFOR, word, 0, word.length());
+        }
+        else if (word == "range") {
+            token = new Token(Token::RANGE, word, 0, word.length());
+        }
         else {
             token = new Token(Token::ID, word, 0, word.length());
         }

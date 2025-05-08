@@ -39,6 +39,9 @@ std::ostream& operator << ( std::ostream& outs, const Token & tok )
         case Token::DO: outs << "TOKEN(DO)"; break;
         case Token::IFEXP: outs << "TOKEN(IFEXP)"; break;
         case Token::COMA: outs << "TOKEN(COMA)"; break;
+        case Token::FOR: outs << "TOKEN(FOR)"; break;
+        case Token::ENDFOR: outs << "TOKEN(ENDFOR)"; break;
+        case Token::RANGE: outs << "TOKEN(ENDFOR)"; break;
         default: outs << "TOKEN(UNKNOWN)"; break;
     }
     return outs;
