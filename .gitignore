@@ -1,0 +1,33 @@
+# Ignorar carpetas de build típicas
+build/
+Build/
+CMakeFiles/
+CMakeScripts/
+
+# Ignorar archivos generados por CMake
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+CTestTestfile.cmake
+
+# Archivos de pruebas temporales
+Testing/
+test_output/
+*.test
+
+# Archivos de proyectos CLion o JetBrains
+.idea/
+
+# Archivos binarios y ejecutables
+*.o
+*.obj
+*.so
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+
+# Otros archivos generados
+*.log

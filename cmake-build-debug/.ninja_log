@@ -1,0 +1,8 @@
+# ninja log v6
+13	1078	7684317583592008	CMakeFiles/Lab10.dir/scanner.cpp.obj	7815c553e3c36f19
+19	1102	7684317583653084	CMakeFiles/Lab10.dir/token.cpp.obj	d64f85fc6fed3b28
+32	1232	7684317583775673	CMakeFiles/Lab10.dir/main.cpp.obj	d0b09c76153495cc
+2	1254	7684317583474265	CMakeFiles/Lab10.dir/exp.cpp.obj	95d8f1b42d45fcc6
+8	1298	7684317583540896	CMakeFiles/Lab10.dir/parser.cpp.obj	d317e3b9630f274c
+25	1389	7684317583708986	CMakeFiles/Lab10.dir/visitor.cpp.obj	b26fc5602cee1047
+1389	1771	7684317597347849	Lab10.exe	d6037672bda8a71d
